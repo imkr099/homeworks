@@ -1,7 +1,8 @@
 class Hero:
-    def __init__(self, name,power = True):
+    def __init__(self, name, power=True):
         self.name = name
         self.power = power
+
 
 class Hero_super(Hero):
     def __str__(self):
@@ -9,6 +10,7 @@ class Hero_super(Hero):
 
     def pr(self):
         print(f'{self.name} it is super_hero')
+
 
 p1 = Hero_super('Ronaldo')
 p1.pr()

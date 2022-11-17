@@ -3,5 +3,5 @@ h1 = Hero ('ROn')
 print(h1.name)
 
 from classs import Hero_super
-h2 = Hero_super('Messi')
-h2.pr()
+p1 = Hero_super('Ronaldo')
+p1.pr()
